@@ -34,3 +34,18 @@ method: El método HTTP que se utilizará para enviar los datos, como "GET" o "P
 - <input type="submit"> crea un botón de envío que permite al usuario enviar el formulario.
 
 - Cuando el usuario completa el formulario y hace clic en el botón de envío, los datos se envían al servidor web especificado en el atributo action. 
+
+# Tipos de medida Css
+Los píxeles son útiles para detalles precisos, los porcentajes son ideales para diseños responsivos, los puntos son más adecuados para impresión y los ems son flexibles y escalables en función del tamaño de fuente actual.
+
+*pixeles* : Representa un punto en una pantalla
+- Es una medida de unidad ubsoluta. no cambia en funcion del tamaño del pantalla
+- Precisa y predecible. adecuada para tamaños exactos.
+*puntos(pt)* : unidad de medida absoluta.
+- Util en contextos de imprecion donde un punto representa una medida fisicade papel.
+- No es responsiva
+*porcentajes(%)* : Unidad de media relativa. tamaño o posicion con respecto a un elemto padre.
+*Ems (em)*: Unidad de medida relativa que se basa en el tamaño de fuente actual del elemeto.
+- Se relaciona con el tamaño de fuente actual del elemento padre.
+- util para dimesiones que pueden escalar propocionalmente con respeto al tamaño de fuente.
+- flexible se ajusta automaticamente al zoom del usuario y el tamaño de fuente.
