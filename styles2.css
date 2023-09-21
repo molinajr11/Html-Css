@@ -1,0 +1,18 @@
+body{
+    background: skyblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: brown;
+    text-align: center;
+    font-size: large;
+}
+
+#descrption{
+    background: blue;
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;  
+}
+
+#ejem{
+    background:white;
+    font-family: 'Times New Roman', Times, serif;
+}

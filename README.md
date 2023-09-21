@@ -39,13 +39,27 @@ method: El método HTTP que se utilizará para enviar los datos, como "GET" o "P
 Los píxeles son útiles para detalles precisos, los porcentajes son ideales para diseños responsivos, los puntos son más adecuados para impresión y los ems son flexibles y escalables en función del tamaño de fuente actual.
 
 *pixeles* : Representa un punto en una pantalla
-- Es una medida de unidad ubsoluta. no cambia en funcion del tamaño del pantalla
+- Es una medida de unidad ubsoluta. no cambia en funcion del tamaño del pantalla.
 - Precisa y predecible. adecuada para tamaños exactos.
+
 *puntos(pt)* : unidad de medida absoluta.
 - Util en contextos de imprecion donde un punto representa una medida fisicade papel.
-- No es responsiva
+- No es responsiva.
+
 *porcentajes(%)* : Unidad de media relativa. tamaño o posicion con respecto a un elemto padre.
+
 *Ems (em)*: Unidad de medida relativa que se basa en el tamaño de fuente actual del elemeto.
+
 - Se relaciona con el tamaño de fuente actual del elemento padre.
 - util para dimesiones que pueden escalar propocionalmente con respeto al tamaño de fuente.
 - flexible se ajusta automaticamente al zoom del usuario y el tamaño de fuente.
+
+# Selectors
+
+*Id-Selectors* son la forma de identificar un elemento en especifico para que este elemento se comporte de manera diferente si asi lo deceamos. solo puede haber un id selector con el mismo nombre para aplicar el css usamos #.
+
+*Class selectors* Es una forma de identificar elementos a diferencia del id pueden existir muchos elementos con la misma clase selector y para aplicar estilos css usamos el.
+
+# Selectores decendientes
+Es la forma de anidar elementos css que estan envueltos en los elemtos html
+Es una herencia de elementos que estan envueltos por el elemento padre.
