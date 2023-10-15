@@ -63,3 +63,11 @@ Los píxeles son útiles para detalles precisos, los porcentajes son ideales par
 # Selectores decendientes
 Es la forma de anidar elementos css que estan envueltos en los elemtos html
 Es una herencia de elementos que estan envueltos por el elemento padre.
+
+# Box Model
+![Alt text](image.png)
+
+#block level elements
+h1 , p , ul , table
+#inline Elements
+a, img , span
